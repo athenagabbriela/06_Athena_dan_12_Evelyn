@@ -76,7 +76,7 @@ body {
 } */
 
 .pameran{
-    background-image: url('home4.png');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/tugas-akhir-athena-evelyn.appspot.com/o/home4.png?alt=media&token=c85cd821-8e8d-4a02-aea7-57f90e41cc55');
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@ body {
 }
 
 .pamerantetap{
-    background-image: url('home3.png');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/tugas-akhir-athena-evelyn.appspot.com/o/home3.png?alt=media&token=a544c3db-ff64-4403-bcc7-419d7ef03d4c');
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
