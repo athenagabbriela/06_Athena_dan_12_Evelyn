@@ -1,0 +1,291 @@
+body{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    position: fixed;
+    background: transparent;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-items: start; */
+    z-index: 100;
+}
+
+#logo {
+    width: 90px;
+    height: 90px;
+}
+
+#logo1 {
+    width: 90px;
+    height: 90px;
+    margin-left: -4px;
+    margin-top: -3px;
+}
+
+#search {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#search i {
+    padding-right: 1.5rem;
+    font-size: 26pt;
+    color: whitesmoke;
+}
+
+#hero-caption {
+    margin-bottom: 20%;
+    text-align: left;
+}
+
+#nav-modal, .modal-dialog, .modal-content {
+    background-color: black !important;
+    color: white;
+}
+
+#title{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#aten{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+    margin-top: 70px;
+    margin-left: 300px;
+}
+
+#epee{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+    margin-top: -36px;
+    margin-left: 795px;
+}
+
+#ep{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid gray;
+    margin-left: 290px;
+    margin-top: 20px;
+}
+
+#at{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid gray;
+    margin-left: 390px;
+    margin-top: 20px;
+}
+
+#kls{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 280px;
+}
+
+#kls1{
+    color: aliceblue;
+    margin-left: 775px;
+    margin-top: -40px;
+}
+
+#abs{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 283px;
+}
+
+#abs1{
+    color: aliceblue;
+    margin-top: -40px;
+    margin-left: 783px;
+}
+
+#tgs{
+    color: aliceblue;
+    margin-top: 18px;
+    margin-left: 180px;
+}
+
+#tgs2{
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 245px;
+}
+
+#tgs1{
+    color: aliceblue;
+    margin-top: -75px;
+    margin-left: 720px;
+}
+
+#tgs3{
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 787px;
+}
+
+#ref{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+
+.text-link{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+#dok{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+#dok1{
+    width: 300px;
+    margin-left: 100px;
+}
+
+#dok2{
+    width: 300px;
+    margin-left: 150px;
+    margin-top: -70px;
+    rotate: -90deg;
+}
+
+.footer{
+    background-color: #272829;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#hub{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    margin-left: 20px;
+    text-align: left;
+    padding-bottom: -30px;
+    rotate: -90deg;
+}
+
+#hub1{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    margin-left: -30px;
+    padding-top: -60px;
+    rotate: -90deg;
+    padding-left: -40px;
+}
+
+#line{
+    margin-top: -120px;
+    padding-left: 250px;
+    margin-bottom: -60px;
+    color: aliceblue;
+}
+
+#locate {
+    height: 100%;
+    display: flex;
+    padding-left: 280px;
+    align-items: center;
+    flex-direction: row;
+}
+
+#locate i {
+    padding-right: 1.5rem;
+    margin-top: -240px;
+    font-size: 20pt;
+    color: whitesmoke;
+}
+
+#mail {
+    height: 100%;
+    display: flex;
+    padding-left: 280px;
+    align-items: center;
+    flex-direction: row;
+}
+
+#mail i {
+    padding-right: 1.5rem;
+    margin-top: -140px;
+    font-size: 20pt;
+    color: whitesmoke;
+}
+
+#call {
+    height: 100%;
+    display: flex;
+    padding-left: 280px;
+    align-items: center;
+    flex-direction: row;
+}
+
+#call i {
+    padding-right: 1.5rem;
+    margin-top: -40px;
+    font-size: 20pt;
+    color: whitesmoke;
+}
+
+#insta {
+    height: 100%;
+    display: flex;
+    padding-left: 280px;
+    align-items: center;
+    flex-direction: row;
+}
+
+#insta i {
+    padding-right: 1.5rem;
+    margin-top: 10px;
+    font-size: 20pt;
+    color: whitesmoke;
+}
+
+#loc {
+    color: white;
+    padding-left: 340px;
+    margin-top: -185px;
+}
+
+#chat {
+    color: white;
+    padding-left: 340px;
+    margin-top: 28px;
+}
+
+#no {
+    color: white;
+    padding-left: 340px;
+    margin-top: 29px;
+}
+
+#usnam {
+    color: white;
+    padding-left: 340px;
+    margin-top: 23px;
+}

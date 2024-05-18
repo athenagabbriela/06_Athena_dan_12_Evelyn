@@ -1,0 +1,259 @@
+body{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    position: fixed;
+    background: transparent;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-items: start; */
+    z-index: 100;
+}
+
+#logo {
+    width: 90px;
+    height: 90px;
+}
+
+#logo1 {
+    width: 90px;
+    height: 90px;
+    margin-left: -4px;
+    margin-top: -3px;
+}
+
+#search {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#search i {
+    padding-right: 1.5rem;
+    font-size: 26pt;
+    color: whitesmoke;
+}
+
+#hero-caption {
+    margin-bottom: 20%;
+    text-align: left;
+}
+
+#nav-modal, .modal-dialog, .modal-content {
+    background-color: black !important;
+    color: white;
+}
+
+#rs1{
+    text-align: center;
+    padding-top: 40px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+}
+#rs2{
+    text-align: center;
+    padding-top: 0px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+}
+#rs3{
+    text-align: center;
+    padding-top: 22px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+}
+
+#rs4{
+    margin-left: 300px;
+    padding-top: 22px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.nama{
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+#rs5{
+    margin-left: 300px;
+    padding-top: 22px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.email{
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.no{
+    width: 600px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+#rs6{
+    margin-left: 0;
+    padding-top: 22px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+}
+
+#rs7{
+    margin-left: 0;
+    padding-top: 22px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.dd{
+    width: 180px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.mm{
+    width: 180px;
+    margin-left: 200px;
+    margin-top: -53px;
+}
+
+.yy{
+    width: 180px;
+    margin-left: 200px;
+    margin-top: -53px;
+}
+
+.sub{
+    margin-left: -160px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #272829;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#hub{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    margin-left: 20px;
+    text-align: left;
+    padding-bottom: -30px;
+    rotate: -90deg;
+}
+
+#hub1{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    margin-left: -30px;
+    padding-top: -60px;
+    rotate: -90deg;
+    padding-left: -40px;
+}
+
+#line{
+    margin-top: -120px;
+    padding-left: 250px;
+    margin-bottom: -60px;
+    color: aliceblue;
+}
+
+#locate {
+    height: 100%;
+    display: flex;
+    padding-left: 280px;
+    align-items: center;
+    flex-direction: row;
+}
+
+#locate i {
+    padding-right: 1.5rem;
+    margin-top: -240px;
+    font-size: 20pt;
+    color: whitesmoke;
+}
+
+#mail {
+    height: 100%;
+    display: flex;
+    padding-left: 280px;
+    align-items: center;
+    flex-direction: row;
+}
+
+#mail i {
+    padding-right: 1.5rem;
+    margin-top: -140px;
+    font-size: 20pt;
+    color: whitesmoke;
+}
+
+#call {
+    height: 100%;
+    display: flex;
+    padding-left: 280px;
+    align-items: center;
+    flex-direction: row;
+}
+
+#call i {
+    padding-right: 1.5rem;
+    margin-top: -40px;
+    font-size: 20pt;
+    color: whitesmoke;
+}
+
+#insta {
+    height: 100%;
+    display: flex;
+    padding-left: 280px;
+    align-items: center;
+    flex-direction: row;
+}
+
+#insta i {
+    padding-right: 1.5rem;
+    margin-top: 10px;
+    font-size: 20pt;
+    color: whitesmoke;
+}
+
+#loc {
+    color: white;
+    padding-left: 340px;
+    margin-top: -185px;
+}
+
+#chat {
+    color: white;
+    padding-left: 340px;
+    margin-top: 28px;
+}
+
+#no {
+    color: white;
+    padding-left: 340px;
+    margin-top: 29px;
+}
+
+#usnam {
+    color: white;
+    padding-left: 340px;
+    margin-top: 23px;
+}
